@@ -2,9 +2,9 @@
 
 Before opening a pull request, I verify the following:
 
-- [x] The changes match the PR title and description
-- [x] Existing tests run successfully and pass
-- [x] No new functionality requiring additional tests was introduced
-- [x] Documentation and README were updated appropriately
-- [x] The PR focuses on one logical change only (PR hygiene and documentation)
-- [x] No debug statements, breakpoints, or temporary code remain
+- [ ] The code does what the PR title describes
+- [ ] All tests pass successfully
+- [ ] Documentation and README are updated
+- [ ] The PR focuses on one logical change
+- [ ] No debug prints or temporary code remain
+- [ ] Code formatting and naming are consistent

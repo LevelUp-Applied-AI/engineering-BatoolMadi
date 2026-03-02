@@ -27,8 +27,9 @@ Steps to verify the changes:
 ## Checklist
 Before opening this PR, I confirm that:
 
-- [x] The code works as expected
-- [x] I tested the changes locally
-- [x] No debug prints or temporary code remain
-- [x] Documentation is updated if needed
-- [x] The PR focuses on a single logical change
+- [ ] The code works as expected
+- [ ] I tested the changes locally
+- [ ] No debug prints or temporary code remain
+- [ ] Documentation is updated if needed
+- [ ] The PR focuses on a single logical change
+- [ ] Documentation updated
