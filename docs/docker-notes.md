@@ -30,3 +30,35 @@ This message shows that your installation appears to be working correctly.
 
 - hello-world:latest
 - postgres:15-alpine
+
+## Postgres Container
+
+Command used:
+
+docker run -d \
+  --name pg-prework \
+  -e POSTGRES_PASSWORD=prework \
+  -p 5432:5432 \
+  postgres:15-alpine
+
+## PostgreSQL Startup Logs
+
+Output of docker logs pg-prework:
+
+LOG:  database system is ready to accept connections
+
+## Stop Container
+
+Command used:
+
+docker stop pg-prework
+
+## Restart Container
+
+Command used:
+
+docker restart pg-prework
+
+Output after restart:
+
+LOG:  database system is ready to accept connections
